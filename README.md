@@ -1,0 +1,1 @@
+# ai-lab-hiruta-bogdan
