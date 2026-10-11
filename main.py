@@ -29,3 +29,16 @@ else:
     result = [y ** 2 for y in range(x + 1)]
 
 print(result)
+
+# ex 4
+
+s_in = input()
+num_in = int(input())
+length = len(s_in)
+
+dictionary = dict()
+
+for i in range(num_in):
+    dictionary[i] = s_in[i % length]
+
+print(dictionary)
