@@ -42,3 +42,17 @@ for i in range(num_in):
     dictionary[i] = s_in[i % length]
 
 print(dictionary)
+
+
+# ex 5
+
+def shift_string(string: str):
+    result = []
+    for char in string:
+        result.append(chr(ord(char) + 1)) # append the next character lexicographically
+
+    return "".join(result)
+
+str = input()
+print(shift_string(str))
+    
