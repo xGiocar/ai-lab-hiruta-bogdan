@@ -55,4 +55,14 @@ def shift_string(string: str):
 
 str = input()
 print(shift_string(str))
-    
+
+# ex 6 
+
+with open("file1.txt", 'r') as file1:
+    readData = file1.read()
+    capitalized = readData.title()
+
+    with open("file2.txt", 'a') as file2:
+        file2.write(capitalized)
+
+
